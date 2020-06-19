@@ -1,0 +1,6 @@
+import datetime
+today = str(datetime.date.today());
+curr_year = int(today[:4]);
+joined_army = input("what year did you join? ")
+months = (curr_year - int(joined_army)) * 12
+print(f"you have served this many months: {months}")
